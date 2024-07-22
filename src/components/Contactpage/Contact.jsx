@@ -53,13 +53,23 @@ const Contact = () => {
             <div className="formCard">
               <form action="">
                 <div className="form-field">
-                  <input type="text" id="name" className="form-input" />
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="Name"
+                    className="form-input"
+                  />
                   <label htmlFor="name">
                     <FaUserAlt />
                   </label>
                 </div>
                 <div className="form-field">
-                  <input type="text" id="email" className="form-input" />
+                  <input
+                    type="text"
+                    id="email"
+                    placeholder="Email"
+                    className="form-input"
+                  />
                   <label htmlFor="email">
                     <MdAlternateEmail />
                   </label>
@@ -68,6 +78,7 @@ const Contact = () => {
                   <textarea
                     type="text"
                     id="message"
+                    placeholder="Message"
                     style={{ height: "80px" }}
                     className="form-input"
                   ></textarea>
