@@ -1,0 +1,29 @@
+.langItems {
+    width: 33.33%;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+.CircularProgressbar {
+    width: 90% !important;
+    margin-bottom: 10px;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #191923 !important;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #FFC107 !important;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #8c8c8e !important;
+    font-size: 20px !important;
+}
+
+.skillName {
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 12px;
+}

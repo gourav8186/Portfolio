@@ -1,0 +1,106 @@
+.contactCard {
+    background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+}
+
+.contactCard ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.contactCard ul li {
+    display: flex;
+    margin-bottom: 5px;
+    color: #8c8c8e;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.contactCard ul li h6 {
+    margin-bottom: 0;
+    color: #fafafa;
+    font-weight: 600 !important;
+    font-size: 12px;
+}
+
+.formCard {
+    padding: 30px;
+    background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+    margin-bottom: 30px;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+}
+
+.form-field {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-field .form-input {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(159deg, #252532 0%, #23232d 100%);
+    border: none;
+    color: #fafafa;
+    padding-left: 65px;
+    padding-right: 15px;
+    margin-bottom: 0;
+    box-shadow: inset 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+}
+
+.form-field .form-input:focus {
+    outline: none;
+}
+
+.form-field .form-input:focus+label {
+    background: #FFC107;
+    color: #20202a;
+}
+
+.form-field label {
+    text-align: center;
+    color: #8c8c8e;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #20202a;
+    top: 0;
+    left: 0;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: text;
+    transition: .4s ease-in-out;
+}
+
+.textarea label {
+    height: 80px;
+}
+
+.subBtn {
+    position: relative;
+    height: 45px;
+}
+
+.subBtn .submitBtnstyle {
+    text-transform: uppercase;
+    box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+    color: #20202a;
+    background: #FFC107;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 15px 35px;
+    display: inline-flex;
+    justify-content: center;
+    border: none;
+    transition: 0.4s ease-in-out;
+}
+
+.subBtn .submitBtnstyle:hover {
+    transform: translateY(-2px);
+}

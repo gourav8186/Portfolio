@@ -1,0 +1,240 @@
+.bgBanner {
+    background: url(../../assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 999;
+    position: relative;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+}
+
+.banOver {
+    width: 100%;
+    padding: 60px;
+    position: relative;
+    display: flex;
+    background-image: linear-gradient(90deg, rgba(45, 45, 58, 0.9) 15%, rgba(45, 45, 58, 0.7) 50%, rgba(43, 43, 53, 0.7) 100%);
+}
+
+.banner-title {
+    width: 100%;
+    align-self: center;
+}
+
+.banner-title h1 {
+    font-size: 36px;
+    color: #fafafa;
+    font-weight: 800;
+    line-height: 45px;
+}
+
+.type-animation {
+    margin-bottom: 25px;
+}
+
+.type-animation .iCode {
+    font-family: "Courier Prime", monospace !important;
+}
+
+.index-module_type__E-SaG {
+    font-family: "Courier Prime", monospace;
+    color: #fafafa !important;
+    font-size: 16px !important;
+}
+
+.iSymbol {
+    margin-bottom: 0px !important;
+    padding: 0px 5px !important;
+    color: #fafafa;
+}
+
+.iCode {
+    font-style: normal;
+    color: #FFC107;
+}
+
+.btn-frame {
+    height: 45px;
+    font-size: 11px;
+    padding: 0 35px;
+    color: #20202a;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    background: #FFC107;
+    display: inline-flex;
+    cursor: pointer;
+    justify-content: center;
+    border: none;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+}
+
+.btn-frame:hover {
+    transform: translateY(-2px);
+    color: #1e1e28;
+}
+
+.btn-frame span {
+    align-self: center;
+}
+
+.adminProfile {
+    width: 320px;
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.count-frame {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.counterBox {
+    display: flex;
+    align-items: center;
+    min-width: 60px;
+}
+
+.count-frame h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #fafafc !important;
+}
+
+.count-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFC107;
+}
+
+.container-fluid {
+    overflow: hidden;
+    padding: 0 30px !important;
+    position: relative;
+}
+
+.cardBox {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 30px;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+}
+
+.cardBox h5 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fafafc;
+}
+
+.cardBox p {
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: #8c8c8e;
+    font-weight: 400;
+}
+
+.orderBtn {
+    color: #FFC107;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.orderBtn:hover svg {
+    transform: translateX(5px);
+}
+
+.orderBtn svg {
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+}
+
+
+
+.projectBody {
+    margin: 0 10px;
+    width: 400px !important;
+}
+
+.projectBox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+    padding: 30px;
+}
+
+.projectBox .projectLogo {
+    position: absolute;
+    object-fit: cover;
+    right: 30px;
+    top: -15px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+}
+
+.projectBox h5 {
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.projectBox p {
+    margin-top: 5px;
+    color: #646466;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.projectBox .aboutProject {
+    margin-bottom: 15px;
+    color: #8c8c8e;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+    .adminProfile {
+        display: none !important;
+    }
+}
+
+@media (max-width: 618px) {
+    .banner-title h1 {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-title {
+        text-align: center !important;
+    }
+
+    .banOver {
+        padding: 60px 30px !important;
+    }
+
+    .type-animation {
+        min-height: 70px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .type-animation {
+        justify-content: center !important;
+    }
+}

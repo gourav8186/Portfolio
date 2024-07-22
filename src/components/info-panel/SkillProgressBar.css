@@ -1,0 +1,41 @@
+.skill-info {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+
+.skill-info p {
+    margin-bottom: 0px !important;
+    font-size: 12px;
+}
+
+.skill-info .percent {
+    color: #8c8c8e !important;
+}
+
+.skill-items {
+    margin-bottom: 18px;
+}
+
+.progress-line {
+    width: 100%;
+    height: 6px;
+    background-color: #cdcdcd;
+    border-radius: 20px;
+}
+
+.progress-line .line-fill {
+    transform: scaleX(0);
+    height: 100%;
+    transform-origin: left;
+    border-radius: 20px;
+    background-color: #FFC107;
+    animation: fillprogress 2s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes fillprogress {
+    100% {
+        transform: scaleX(1);
+    }
+}
