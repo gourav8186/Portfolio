@@ -77,6 +77,10 @@
     transition: .4s ease-in-out;
 }
 
+.textarea {
+    padding-top: 15px;
+}
+
 .textarea label {
     height: 80px;
 }
