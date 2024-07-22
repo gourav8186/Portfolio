@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
               <div className="bgiOverlay"></div>
             </div>
             <div className="scrollBox" ref={mainScrollref}>
-              {children}
+              <div>{children}</div>
             </div>
           </main>
           <MenuItems />
