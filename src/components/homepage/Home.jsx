@@ -6,6 +6,8 @@ import CountingAnimation from "./CountingAnimation";
 import MyServicesCards from "./MyServicesCards";
 import Projects from "./Projects";
 import Footer from "../Footer";
+import { motion } from "framer-motion";
+import { pageVariants, pageTransition } from "../Animations";
 
 const counters = [
   { end: 10, text: "Years Experience", hasPlus: true },
@@ -15,7 +17,14 @@ const counters = [
 ];
 const Home = () => {
   return (
-    <section className="home-page">
+    <motion.div
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      className="home-page motion"
+    >
       <div className="container-fluid">
         <div className="row mt-4 pt-2">
           <div className="col-lg-12">
@@ -83,7 +92,7 @@ const Home = () => {
       <MyServicesCards />
       <Projects />
       <Footer />
-    </section>
+    </motion.div>
   );
 };
 

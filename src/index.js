@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import AppWrapper from './App';
 import 'react-circular-progressbar/dist/styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'jquery-ui/themes/base/all.css';
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HoverProvider>
     <ActiveProvider>
-      <App />
+      <AppWrapper />
     </ActiveProvider>
   </HoverProvider >
   ,

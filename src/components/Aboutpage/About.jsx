@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 import Footer from "../Footer";
+import { motion } from "framer-motion";
+import { pageVariants, pageTransition } from "../Animations";
 
 const About = () => {
   const EducationData = [
@@ -134,7 +136,14 @@ const About = () => {
     },
   ];
   return (
-    <section>
+    <motion.div
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      className="motion"
+    >
       <div className="container-fluid">
         <div className="row pt-4">
           <div className="col-lg-6">
@@ -188,7 +197,7 @@ const About = () => {
         </div>
       </div>
       <Footer />
-    </section>
+    </motion.div>
   );
 };
 

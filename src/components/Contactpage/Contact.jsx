@@ -6,6 +6,8 @@ import { FaUserAlt, FaEnvelope } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { motion } from "framer-motion";
+import { pageVariants, pageTransition } from "../Animations";
 
 const Contact = () => {
   const form = useRef();
@@ -40,7 +42,14 @@ const Contact = () => {
     }, 2000);
   };
   return (
-    <section>
+    <motion.div
+      initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      className="motion"
+    >
       <div className="container-fluid">
         <div className="row pt-4">
           <div className="col-lg-12">
@@ -137,7 +146,7 @@ const Contact = () => {
         </div>
       </div>
       <Footer />
-    </section>
+    </motion.div>
   );
 };
 
