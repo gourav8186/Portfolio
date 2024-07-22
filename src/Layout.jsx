@@ -5,6 +5,7 @@ import MobileHeader from "./components/MobileHeader";
 import HoverContext from "./HoverContext";
 import Scrollbar from "smooth-scrollbar";
 import { useEffect, useRef, useContext } from "react";
+import { ToastContainer } from "react-toastify";
 const Layout = ({ children }) => {
   const { isHovered } = useContext(HoverContext);
   const { isOpacity } = useContext(HoverContext);
@@ -38,6 +39,7 @@ const Layout = ({ children }) => {
           <MenuItems />
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
