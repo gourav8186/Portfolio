@@ -110,7 +110,7 @@ const Contact = () => {
                 </div>
                 <div className="form-field">
                   <input
-                    type="text"
+                    type="email"
                     id="email"
                     name="user_email"
                     placeholder="Email"
