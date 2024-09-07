@@ -4,7 +4,7 @@ import "./home.css";
 import { TypeAnimation } from "react-type-animation";
 import CountingAnimation from "./CountingAnimation";
 import MyServicesCards from "./MyServicesCards";
-// import Projects from "./Projects";
+import Projects from "./Projects";
 import Footer from "../Footer";
 import { motion } from "framer-motion";
 import { pageVariants, pageTransition } from "../Animations";
@@ -93,7 +93,7 @@ const Home = () => {
         </div>
       </div>
       <MyServicesCards />
-      {/* <Projects /> */}
+      <Projects />
       <Footer />
     </motion.div>
   );

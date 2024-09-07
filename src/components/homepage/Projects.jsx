@@ -1,39 +1,54 @@
 import React from "react";
-import pLogo from "../../assets/images/face-1.jpg";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
     <section className="container-fluid">
       <div className="row">
         <div className="col-lg-12">
-          <h4 className="card_title">Projects</h4>
+          <h4 className="card_title mb-1">Projects</h4>
         </div>
-        <div className="col-lg-6 col-sm-6 col-md-6 mb-4">
-          <div className="projectBox">
-            <img src={pLogo} className="projectLogo" alt="Project Logo" />
-            <h5>Paul Trueman</h5>
-            <p>Template author</p>
-            <div className="aboutProject">
-              Working with Artur has been a pleasure. Better yet - I alerted
-              them of a minor issue before going to sleep. The issue was fixed
-              the next morning. I couldn't ask for better support. Thank you
-              Artur! This is easily a 5 star freelancer.
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-6 col-sm-6 col-md-6 mb-4">
-          <div className="projectBox">
-            <img src={pLogo} className="projectLogo" alt="Project Logo" />
-            <h5>Paul Trueman</h5>
-            <p>Template author</p>
-            <div className="aboutProject">
-              Working with Artur has been a pleasure. Better yet - I alerted
-              them of a minor issue before going to sleep. The issue was fixed
-              the next morning. I couldn't ask for better support. Thank you
-              Artur! This is easily a 5 star freelancer.
-            </div>
-          </div>
-        </div>
+      </div>
+      <div className="projectContainer">
+        <Link to="https://woodbine.co.in/" className="projectBox">
+          <span>Woodbine furniture</span>
+        </Link>
+        <Link
+          to="https://highlevelpassword.netlify.app/"
+          className="projectBox"
+        >
+          <span>Password Generator</span>
+        </Link>
+        <Link to="https://coursesarea.netlify.app/" className="projectBox">
+          <span>Course Hub</span>
+        </Link>
+        <Link to="https://grvhere.netlify.app/" className="projectBox">
+          <span>Portfolio</span>
+        </Link>
+        <Link
+          to="https://github.com/gourav8186/notes-app"
+          className="projectBox"
+        >
+          <span>Note Down</span>
+        </Link>
+        <Link
+          to="https://github.com/gourav8186/cost-estimation-service"
+          className="projectBox"
+        >
+          <span>CES</span>
+        </Link>
+        <Link
+          to="https://github.com/gourav8186/prompt_clones"
+          className="projectBox"
+        >
+          <span>Prompt Blogs</span>
+        </Link>
+        <Link
+          to="https://genuine-tiramisu-6bb3ad.netlify.app/"
+          className="projectBox"
+        >
+          <span>React Form</span>
+        </Link>
       </div>
     </section>
   );

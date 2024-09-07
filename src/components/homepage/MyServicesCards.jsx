@@ -30,7 +30,7 @@ const MyServicesCards = () => {
               <h5>{cardData.name}</h5>
               <p>{cardData.description}</p>
               <div className="orderBtn">
-                <Link to="/contact">
+                <Link to="/contact" className="d-flex align-items-center">
                   Contact Me <MdKeyboardArrowRight />
                 </Link>
               </div>
