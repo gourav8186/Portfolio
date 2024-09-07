@@ -70,6 +70,7 @@
 .itemContent p {
     color: #646466;
     font-size: 12px;
+    text-align: justify;
 }
 
 .itemContent::after {

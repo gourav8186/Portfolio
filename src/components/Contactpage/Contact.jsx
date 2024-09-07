@@ -8,6 +8,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { motion } from "framer-motion";
 import { pageVariants, pageTransition } from "../Animations";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
@@ -60,15 +61,11 @@ const Contact = () => {
               <ul>
                 <li>
                   <h6>Email:</h6>
-                  <span>Gouravsuthar564@gmail.com</span>
-                </li>
-                <li>
-                  <h6>Telegram:</h6>
-                  <span>Toronto</span>
-                </li>
-                <li>
-                  <h6>Skype:</h6>
-                  <span>Gourav</span>
+                  <span>
+                    <Link to="mailto:gouravsuthar564@gmail.com">
+                      Gouravsuthar564@gmail.com
+                    </Link>
+                  </span>
                 </li>
               </ul>
             </div>
@@ -78,15 +75,9 @@ const Contact = () => {
               <ul>
                 <li>
                   <h6>Support service::</h6>
-                  <span>+78 (098) 333 11 22</span>
-                </li>
-                <li>
-                  <h6>Office::</h6>
-                  <span>+78 (098) 333 11 22</span>
-                </li>
-                <li>
-                  <h6>Personal:</h6>
-                  <span>+78 (098) 333 11 22</span>
+                  <span>
+                    <Link to="tel:9024818628">+91 9024818628</Link>
+                  </span>
                 </li>
               </ul>
             </div>

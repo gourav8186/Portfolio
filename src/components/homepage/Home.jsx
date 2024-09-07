@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.css";
-import AdminPng from "../../assets/images/face-2.png";
+// import AdminPng from "../../assets/images/face-2.png";
 import { TypeAnimation } from "react-type-animation";
 import CountingAnimation from "./CountingAnimation";
 import MyServicesCards from "./MyServicesCards";
-import Projects from "./Projects";
+// import Projects from "./Projects";
 import Footer from "../Footer";
 import { motion } from "framer-motion";
 import { pageVariants, pageTransition } from "../Animations";
@@ -33,7 +33,7 @@ const Home = () => {
               <div className="banOver">
                 <div className="banner-title">
                   <h1 className="mb-2">
-                    Discover my Amazing <br /> Art Space!
+                    Explore My Full Stack <br /> Creations!
                   </h1>
                   <div className="type-animation d-flex">
                     <p className="iSymbol d-flex">
@@ -65,7 +65,7 @@ const Home = () => {
                     </div>
                   </Link>
                 </div>
-                <img src={AdminPng} className="adminProfile" alt="Profile" />
+                {/* <img src={AdminPng} className="adminProfile" alt="Profile" /> */}
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ const Home = () => {
         </div>
       </div>
       <MyServicesCards />
-      <Projects />
+      {/* <Projects /> */}
       <Footer />
     </motion.div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./avatar.css";
-import profileImage from "../../assets/images/face-1.jpg";
+import profileImage from "../../assets/images/admin2.png";
 const Avatar = () => {
   return (
     <div className="avatar">

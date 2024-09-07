@@ -191,7 +191,8 @@ footer {
   color: #8c8c8e;
 }
 
-footer .highlight {
+footer .highlight a {
+  text-decoration: none;
   color: #fafafa !important;
 }
 

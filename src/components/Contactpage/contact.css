@@ -27,6 +27,11 @@
     font-size: 12px;
 }
 
+.contactCard ul li span a {
+    text-decoration: none;
+    color: #8c8c8e;
+}
+
 .formCard {
     padding: 30px;
     background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);

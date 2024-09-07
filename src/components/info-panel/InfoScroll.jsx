@@ -11,7 +11,7 @@ const InfoScroll = () => {
       Scrollbar.init(sidebarRef.current);
     }
   }, []);
-  const fileName = "Gourav.pdf";
+  const fileName = "GouravSuthar.pdf";
   return (
     <div className="infoScroll" id="sidebarScroll" ref={sidebarRef}>
       <div className="scrollContent">

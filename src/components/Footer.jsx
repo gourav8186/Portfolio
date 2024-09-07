@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,7 +7,11 @@ const Footer = () => {
       <footer>
         <div className="copyText">© 2024 Gourav Suthar</div>
         <div>
-          Portfolio author: <span className="highlight">Gourav Suthar</span>
+          Portfolio author:{" "}
+          <span className="highlight">
+            {" "}
+            <Link to="/">Gourav Suthar</Link>
+          </span>
         </div>
       </footer>
     </div>

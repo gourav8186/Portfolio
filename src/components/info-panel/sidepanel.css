@@ -69,13 +69,15 @@
     list-style: none;
 }
 
-.socialAccounts li {
+.socialAccounts li a {
     cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
     color: #8c8c8e;
     transition: all .3s ease-in-out;
 }
 
-.socialAccounts li:hover {
+.socialAccounts li a:hover {
     color: #fafafc;
 }
 
