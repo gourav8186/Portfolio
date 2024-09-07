@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import ActiveContext from "../ActiveContext";
 import { RxHamburgerMenu } from "react-icons/rx";
-import profileImage from "../assets/images/face-1.jpg";
+import profileImage from "../assets/images/admin2.png";
 import { Link } from "react-router-dom";
 const MobileHeader = () => {
   const { setIsTouched } = useContext(ActiveContext);
