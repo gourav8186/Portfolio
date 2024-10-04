@@ -127,7 +127,11 @@ const Contact = () => {
                   </label>
                 </div>
                 <div className="subBtn">
-                  <button type="submit" className="submitBtnstyle">
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="submitBtnstyle"
+                  >
                     {isSubmitting ? "Sending..." : "Send Message"}
                   </button>
                 </div>
