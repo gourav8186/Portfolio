@@ -14,7 +14,7 @@ const counters = [
   { end: 1.5, text: "Years Experience", hasPlus: true },
   { end: 5, text: "Completed Projects", hasPlus: false },
   { end: 1, text: "Happy Customers", hasPlus: false },
-  { end: 0, text: "Honors and Awards", hasPlus: true },
+  { end: 3, text: "Certificates and Awards", hasPlus: true },
 ];
 const Home = () => {
   return (
