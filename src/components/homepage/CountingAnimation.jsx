@@ -7,7 +7,7 @@ const CountingAnimation = ({ start, end, duration }) => {
     const startTime = performance.now();
     const step = (timestamp) => {
       const progress = Math.min((timestamp - startTime) / duration, 1);
-      setCount(Math.floor(progress * (end - start) + start));
+      setCount(Math.ceil(progress * (end - start) + start));
       if (progress < 1) {
         requestAnimationFrame(step);
       }
