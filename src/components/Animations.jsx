@@ -1,10 +1,10 @@
 export const pageVariants = {
   initial: {
-    x: "40%",
+    y: "10%",
     opacity: 0.2,
   },
   in: {
-    x: 0,
+    y: 0,
     opacity: 1,
   },
   out: {
@@ -16,5 +16,5 @@ export const pageVariants = {
 export const pageTransition = {
   type: "tween",
   ease: "easeInOut",
-  duration: 0.6,
+  duration: 0.2,
 };
