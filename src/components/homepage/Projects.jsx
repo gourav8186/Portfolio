@@ -13,6 +13,12 @@ const Projects = () => {
         <Link to="https://woodbine.co.in/" className="projectBox">
           <span>Woodbine furniture</span>
         </Link>
+        <Link to="https://wudzei.com/" className="projectBox">
+          <span>Wudzei furniture | 'Work In Progress'</span>
+        </Link>
+        <Link to="https://studiof16.com/" className="projectBox">
+          <span>Studio f16 | 'Work In Progress'</span>
+        </Link>
         <Link
           to="https://highlevelpassword.netlify.app/"
           className="projectBox"
