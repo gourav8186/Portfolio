@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const counters = [
   { end: 1.8, text: "Years Experience", hasPlus: true },
   { end: 5, text: "Completed Projects", hasPlus: true },
-  { end: 3, text: "Happy Customers", hasPlus: true },
+  { end: 4, text: "Happy Customers", hasPlus: true },
   { end: 3, text: "Certificates and Awards", hasPlus: true },
 ];
 const Home = () => {
